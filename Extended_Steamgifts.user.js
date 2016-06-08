@@ -1164,7 +1164,13 @@ function check_entered_chances()
 				chance = Math.round(copies / (entries) * 10000) / 100;
 			if (chance > 100)
 				chance = 100;
-			$(this).find(".table__column--width-small:first").before('<div class="table__column--width-small text-center">'+chance+'%</div>');
+
+			if (chance < 0.25)
+				exstyle = 'style="color:red;font-size:medium"';
+			else
+				exstyle = '';
+
+			$(this).find(".table__column--width-small:first").before('<div '+exstyle+'class="table__column--width-small text-center">'+chance+'%</div>');
 		});
 	}
 }
