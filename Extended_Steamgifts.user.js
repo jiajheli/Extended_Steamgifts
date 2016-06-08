@@ -1007,7 +1007,7 @@ $.fn.format_ga = function() {
 		
 		//Display chances
 		if (Number(GM_getValue("esg_chances", 1)) && loggedin) {
-			$(ga).find('.giveaway__columns').find("div:first").after('<div><i class="fa fa-fw fa-area-chart"></i> <span title="Odds: '+(entries/copies).toFixed(0)+':1"'+(chance>=5?" style='font-weight:bold'":"")+'>' + chance.toFixed(2) + '% chance</span></div>');
+			$(ga).find('.giveaway__columns').find("div:first").after('<div><i class="fa fa-fw fa-area-chart"></i> <span title="Odds: '+(entries/copies).toFixed(0)+':1"'+(chance>=0.25?" style='color:#00a000;font-size:medium;font-weight:bold'":"")+'>' + chance.toFixed(2) + '%</span></div>');
 		}
 
 		//Enter/Remove button
