@@ -5,11 +5,11 @@
 // @namespace	esg
 // @include		*steamgifts.com*
 // @version		2.3.3
-// @downloadURL	https://github.com/nandee95/Extended_Steamgifts/raw/master/Extended_Steamgifts.user.js
-// @updateURL	https://github.com/nandee95/Extended_Steamgifts/raw/master/Extended_Steamgifts.user.js
+// @downloadURL	https://github.com/jiajheli/Extended_Steamgifts/raw/master/Extended_Steamgifts.user.js
+// @updateURL	https://github.com/jiajheli/Extended_Steamgifts/raw/master/Extended_Steamgifts.user.js
 // @supportURL  http://steamcommunity.com/groups/extendedsg/discussions/0/
-// @icon		https://raw.githubusercontent.com/nandee95/Extended_Steamgifts/master/img/logo.png
-// @homepage	https://github.com/nandee95/Extended_Steamgifts
+// @icon		https://raw.githubusercontent.com/jiajheli/Extended_Steamgifts/master/img/logo.png
+// @homepage	https://github.com/jiajheli/Extended_Steamgifts
 // @grant	   none
 // @license	 MIT
 // ==/UserScript==
